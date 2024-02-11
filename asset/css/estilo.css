@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightblue;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover; /* Cubre toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.imgPkmn{
+    width: 100%; 
+    
+}
+
+.contenedor{
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    background: rgba(224, 255, 255, .5);
+}
+
+.imagen{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    background: rgba(255, 0, 0, .7);
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
+
+table{
+    width: 100%;
+    background: rgba(224, 255, 255, .8);
+    border-radius: 15px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
